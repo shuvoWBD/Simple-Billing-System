@@ -137,15 +137,15 @@ The project follows a modular design using separate Python files:
 
         | Module      | Purpose               |
         
-| ----------- | ---------------------------- |
+        | ----------- | ---------------------------- |
 
-| main.py     | Main program execution       |
+        | main.py     | Main program execution       |
 
-| read.py     | Read product inventory       |
+        | read.py     | Read product inventory       |
 
-| purchase.py | Customer purchase processing |
+        | purchase.py | Customer purchase processing |
 
-| write.py    | Inventory update after sales |
+        | write.py    | Inventory update after sales |
 
 
 This improves:
@@ -194,5 +194,11 @@ This improves:
    **Dictionaries**
 
            q = {}
-
            
+
+   **Lists**     
+
+          L = []
+
+
+**File Handling**
