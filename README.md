@@ -3,6 +3,20 @@
 
 A Simple Billing System is a software application that helps a business calculate the cost of products purchased by customers and generate a bill or invoice automatically.
 
+
+**🎯 Objectives**
+----------------------------------------------------------------
+
+* Manage product inventory efficiently.
+
+* Automate customer billing processes.
+  
+* Generate invoices automatically.
+  
+* Apply discount policies based on purchase amount.
+  
+* Maintain updated stock information after sales.
+
 **🚀Project Overview**
 ----------------------------------------------------------------------
 This project is a Python-based billing and inventory management system developed for an electronic store. The system allows customers to purchase products, calculate total costs, apply discounts based on purchase amount, generate invoices automatically, and update product inventory after each purchase. The application is divided into multiple modules to improve code organization, maintainability, and scalability. The system reads product information from a stock file, processes customer purchases, calculates discounts, generates detailed invoices in text format, and updates the available stock after each transaction.
