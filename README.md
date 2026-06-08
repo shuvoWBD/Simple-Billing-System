@@ -202,3 +202,25 @@ This improves:
 
 
 **File Handling**
+
+         open()
+         
+         readlines()
+         
+         write()
+         
+         close()
+
+
+**Date & Time**
+
+         datetime
+
+
+**String Manipulation**
+
+          upper()
+          
+          replace()
+          
+          split()
