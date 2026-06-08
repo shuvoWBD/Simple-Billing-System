@@ -26,11 +26,11 @@ This project is a Python-based billing and inventory management system developed
 ---------------------------------------------------------------------------
 **1. Product Inventory Management**
    
-        * Reads product data from a text file (products.txt).
+  * Reads product data from a text file (products.txt).
    
-        * Displays available products, prices, and quantities.
+  * Displays available products, prices, and quantities.
    
-        * Updates stock after every purchase.
+  * Updates stock after every purchase.
    
 
 **Functions Used:**
@@ -39,13 +39,13 @@ This project is a Python-based billing and inventory management system developed
 
 **2. Customer Purchase Processing**
 
-          * Allows customers to select products.
+ * Allows customers to select products.
       
-         *  Accepts multiple product purchases in a single transaction.
+ *  Accepts multiple product purchases in a single transaction.
       
-         *  Validates product availability.
+ *  Validates product availability.
       
-         * Checks stock quantity before confirming purchase.
+ * Checks stock quantity before confirming purchase.
 
 
   **Functions Used:**
@@ -61,9 +61,9 @@ This project is a Python-based billing and inventory management system developed
 
 **3. Exception Handling**
 
-      * Prevents invalid quantity inputs.
+  * Prevents invalid quantity inputs.
      
-      * Ensures users enter numeric values when required.
+  * Ensures users enter numeric values when required.
 
   **Techniques Used:**
 
@@ -73,7 +73,7 @@ This project is a Python-based billing and inventory management system developed
 
   **4. Automated Discount Calculation**
 
-       The system provides discounts based on total purchase amount:
+    The system provides discounts based on total purchase amount:
 
         | Purchase Amount | Maximum Discount |
         
@@ -95,9 +95,11 @@ This project is a Python-based billing and inventory management system developed
 
   **5. Invoice Generation**
   
-         * Automatically generates a unique invoice file.
-         * Saves invoice as .txt format.
-         * Includes:
+    * Automatically generates a unique invoice file.
+    
+    * Saves invoice as .txt format.
+    
+    * Includes:
          
                - Customer Name
                - Purchased Products
@@ -115,9 +117,9 @@ This project is a Python-based billing and inventory management system developed
 
    **6. Date and Time Management**
    
-             * Generates unique invoice names using current date and time.
+     * Generates unique invoice names using current date and time.
              
-             * Records transaction timestamp.
+      * Records transaction timestamp.
              
 
 **Functions Used:**
@@ -127,7 +129,7 @@ This project is a Python-based billing and inventory management system developed
 
 **7. File Handling**
 
-            * The project performs various file operations:
+  * The project performs various file operations:
 
 
 **Reading Product Data**
