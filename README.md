@@ -135,11 +135,16 @@ This project is a Python-based billing and inventory management system developed
 The project follows a modular design using separate Python files:
 
 
-        | Module      | Purpose                      
+        | Module      | Purpose               |
+        
 | ----------- | ---------------------------- |
+
 | main.py     | Main program execution       |
+
 | read.py     | Read product inventory       |
+
 | purchase.py | Customer purchase processing |
+
 | write.py    | Inventory update after sales |
 
 
@@ -177,3 +182,17 @@ This improves:
        elif
        
        else
+
+
+ **Exception Handling**
+
+         try
+         
+         except
+
+
+   **Dictionaries**
+
+           q = {}
+
+           
