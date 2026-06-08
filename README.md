@@ -83,11 +83,97 @@ This project is a Python-based billing and inventory management system developed
          . Automatically generates a unique invoice file.
          . Saves invoice as .txt format.
          . Includes:
-         -        Customer Name
          
+               - Customer Name
                - Purchased Products
                - Quantity
-              - Unit Price
-              - Discount
-              - Final Amount
-Date & Time
+              -  Unit Price
+              -  Discount
+              -  Final Amount
+              -  Date & Time
+
+
+   **Libraries Used:**
+
+             . import datetime
+
+
+   **6. Date and Time Management**
+   
+             . Generates unique invoice names using current date and time.
+             
+             . Records transaction timestamp.
+             
+
+**Functions Used:**
+
+             datetime.datetime.now()
+
+
+**7. File Handling**
+
+           . The project performs various file operations:
+
+
+**Reading Product Data**
+
+              open("products.txt", "r")
+
+
+**Writing Invoice**
+
+            open(invoice_name, "w")
+
+
+**Updating Inventory**
+
+             write.over_write()
+
+
+ **8. Modular Programming**
+
+The project follows a modular design using separate Python files:
+
+
+        | Module      | Purpose                      
+| ----------- | ---------------------------- |
+| main.py     | Main program execution       |
+| read.py     | Read product inventory       |
+| purchase.py | Customer purchase processing |
+| write.py    | Inventory update after sales |
+
+
+This improves:
+
+    . Code reusability.
+    
+    . Maintainability.
+    
+    . Readability.
+
+
+**Python Concepts Used**
+
+**Functions**
+
+      read_file()
+      
+       purchase()
+       
+       over_write()
+
+
+ **Loops**
+
+        for loop
+        
+        while loop
+
+
+**Conditional Statements**
+
+        if
+        
+       elif
+       
+       else
